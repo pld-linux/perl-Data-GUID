@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	GUID
 Summary:	Data::GUID - Perl extension for generating GUIDs
-Summary(pl):	Data::GUID - rozszerzenie Perla do generowania GUID-ów
+Summary(pl.UTF-8):	Data::GUID - rozszerzenie Perla do generowania GUID-Ã³w
 Name:		perl-Data-GUID
 Version:	0.043
 Release:	1
@@ -30,18 +30,18 @@ Foundation's (OSF) Distributed Computing Environment. Currently many
 different technologies rely on GUIDs to provide unique identity for
 various software components.
 
-%description -l pl
-Modu³ Perla Data::GUID udostêpnia szkielet do generowania UUID-ów
-(Universally Unique Identifiers - identyfikatorów unikalnych
-powszechnie), znanych te¿ jako GUID-y (Globally Unique Identifiers -
-identyfikatory unikalne globalnie). GUID-y s± 128-bitowe i
-gwarantowana jest ich unikalno¶æ w¶ród wszyskich innych UUID-ów/
-/GUID-ów wygenerowanych do roku 3400. GUID-y pierwotnie by³y u¿ywane w
-Network Computing System (NCS), a pó¼niej w Rozproszonym ¦rodowisku
+%description -l pl.UTF-8
+ModuÅ‚ Perla Data::GUID udostÄ™pnia szkielet do generowania UUID-Ã³w
+(Universally Unique Identifiers - identyfikatorÃ³w unikalnych
+powszechnie), znanych teÅ¼ jako GUID-y (Globally Unique Identifiers -
+identyfikatory unikalne globalnie). GUID-y sÄ… 128-bitowe i
+gwarantowana jest ich unikalnoÅ›Ä‡ wÅ›rÃ³d wszyskich innych UUID-Ã³w/
+/GUID-Ã³w wygenerowanych do roku 3400. GUID-y pierwotnie byÅ‚y uÅ¼ywane w
+Network Computing System (NCS), a pÃ³Åºniej w Rozproszonym Åšrodowisku
 Obliczeniowym (Distributed Computing Environment) Fundacji Open
 Software (OSF). Obecnie na zagwarantowanych przez GUID-y unikalnych
-identyfikatorach dla ró¿nych sk³adników oprogramowania opartych jest
-wiele ró¿nych technologii.
+identyfikatorach dla rÃ³Å¼nych skÅ‚adnikÃ³w oprogramowania opartych jest
+wiele rÃ³Å¼nych technologii.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
