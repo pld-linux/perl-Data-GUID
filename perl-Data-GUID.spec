@@ -8,12 +8,12 @@
 Summary:	Data::GUID - Perl extension for generating GUIDs
 Summary(pl.UTF-8):	Data::GUID - rozszerzenie Perla do generowania GUID-ów
 Name:		perl-Data-GUID
-Version:	0.048
+Version:	0.049
 Release:	1
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8709af7609214edcad1ec99ecd62f048
+# Source0-md5:	a033e23e133122f8742cbf27ccc627e3
 URL:		http://search.cpan.org/dist/Data-GUID/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
