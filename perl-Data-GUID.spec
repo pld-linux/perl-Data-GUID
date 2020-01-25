@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Data
 %define		pnam	GUID
 Summary:	Data::GUID - Perl extension for generating GUIDs
